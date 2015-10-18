@@ -26,7 +26,7 @@ p <-
   ylim(0, 1) # Control lim for y-axe
 print(p)
 
-jpeg(filename = "disggust with density plot.jpeg", res = 100,
+jpeg(filename = "disgust with density plot.jpeg", res = 100,
      width = 18, height =10 ,units =  "cm")
 print(p)
 dev.off()
